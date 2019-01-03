@@ -7,10 +7,10 @@
 App using SpriteKit in order to simulate "fake" watchfaces on WatchOS.
 
 #Video
-![Youtube](https://www.youtube.com/watch?v=7xBnmWHpVA0)
+[Youtube](https://www.youtube.com/watch?v=7xBnmWHpVA0)
 
 #Instal
-![How to instal AWF on your device](https://www.twilio.com/blog/2018/07/how-to-test-your-ios-application-on-a-real-device.html)
+[How to instal AWF on your device](https://www.twilio.com/blog/2018/07/how-to-test-your-ios-application-on-a-real-device.html)
 
 #Use
 To change watchfaces rotate the Digital Crown.
