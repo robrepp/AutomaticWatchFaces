@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import UIKit
+
 struct WatchSettings {
     let name : String!
     let dial : String!
@@ -17,8 +19,11 @@ struct WatchSettings {
     var minuteHandScale : Double!
     var secondHandScale : Double!
     var hourHandScale : Double!
+    var datePositionX : Double!
+    var datePositionY : Double!
+    var dateColor: UIColor
     
-    init(name:String,dial:String,secondHand:String,minuteHand:String,hourHand:String,date:Bool,minuteHandScale:Double?=0.08,secondHandScale:Double?=0.3,hourHandScale:Double?=0.095) {
+    init(name:String,dial:String,secondHand:String,minuteHand:String,hourHand:String,date:Bool,minuteHandScale:Double?=0.1,secondHandScale:Double?=0.44,hourHandScale:Double?=0.12,datePositionX:Double?=65.0,datePositionY:Double?=0.2, dateColor:UIColor = .black) {
         self.name = name
         self.dial = dial
         self.secondHand = secondHand
@@ -28,5 +33,8 @@ struct WatchSettings {
         self.minuteHandScale = minuteHandScale
         self.hourHandScale = hourHandScale
         self.secondHandScale = secondHandScale
+        self.datePositionX = datePositionX
+        self.datePositionY = datePositionY
+        self.dateColor = dateColor
     }
 }

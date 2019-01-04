@@ -14,7 +14,7 @@ class WatchScene: SKScene {
     var secondHand : SKSpriteNode = SKSpriteNode()
     var minuteHand : SKSpriteNode = SKSpriteNode()
     var hourHand : SKSpriteNode = SKSpriteNode()
-    var dayLabel : SKLabelNode = SKLabelNode()
+    var dateLabel : SKLabelNode = SKLabelNode()
     var textures : [String:SKTexture]?
     
     
@@ -33,7 +33,7 @@ class WatchScene: SKScene {
         }
         
         if let label : SKLabelNode = self.childNode(withName: "DateLabel") as? SKLabelNode{
-            dayLabel = label
+            dateLabel = label
         }
         
         if let background : SKSpriteNode = self.childNode(withName: "Background") as? SKSpriteNode{
@@ -52,7 +52,7 @@ class WatchScene: SKScene {
         secondHand.zRotation = -1 * degreesToRadians((seconds + nanoseconds/pow(10,9))*6)
         minuteHand.zRotation = -1 * degreesToRadians((minutes+(seconds/60))*6)
         hourHand.zRotation = -1 * degreesToRadians(hour*30 + minutes/2)
-        dayLabel.text = String(calendar.component(.day, from: date))
+        dateLabel.text = String(calendar.component(.day, from: date))
         
         
     }

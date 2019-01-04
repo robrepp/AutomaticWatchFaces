@@ -18,6 +18,8 @@ class InterfaceController: WKInterfaceController,WKCrownDelegate {
     var watchSelect = 0
     var crownAccumulator = 0.0
     
+    let currentDeviceSize = WKInterfaceDevice.current().screenBounds.size
+    
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         crownSequencer.delegate = self
@@ -69,8 +71,13 @@ class InterfaceController: WKInterfaceController,WKCrownDelegate {
             scene.secondHand.xScale = CGFloat(watch.secondHandScale)
             scene.secondHand.yScale = CGFloat(watch.secondHandScale)
             
-            if watch.date == false{
-                scene.dayLabel.isHidden = true
+            if watch.date == true{
+                scene.dateLabel.isHidden = false
+                scene.dateLabel.position = CGPoint(x:watch.datePositionX, y: watch.datePositionY)
+                scene.dateLabel.fontColor = watch.dateColor
+            }
+            else{
+                scene.dateLabel.isHidden = true
             }
             
             self.skInterface.presentScene(scene)

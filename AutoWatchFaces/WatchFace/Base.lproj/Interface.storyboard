@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14460.31" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
-    <device id="watch38" orientation="portrait">
+    <device id="watch44" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -16,7 +16,7 @@
                     <items>
                         <group width="1" alignment="left" spacing="0.0" id="Bxy-Ye-Nfq">
                             <items>
-                                <spriteKitScene alignment="left" preferredFramesPerSecond="25" id="q2C-tg-N20"/>
+                                <spriteKitScene alignment="center" verticalAlignment="center" preferredFramesPerSecond="25" id="q2C-tg-N20"/>
                             </items>
                             <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
                         </group>
