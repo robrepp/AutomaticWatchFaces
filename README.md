@@ -10,10 +10,6 @@ App using SpriteKit in order to simulate "fake" watchfaces on WatchOS.
 [![Youtube](https://img.youtube.com/vi/7xBnmWHpVA0/0.jpg)](https://www.youtube.com/watch?v=7xBnmWHpVA0)
 
 # Installing
-If you want to directly instal the app on your iOS device (open it with your device) :
-[Click here](http://www.guilliersylvain.raidghost.com/AWF/)
-
-If you want to instal with Xcode :
 [How to instal AWF on your device](https://www.twilio.com/blog/2018/07/how-to-test-your-ios-application-on-a-real-device.html)
 
 # Use
