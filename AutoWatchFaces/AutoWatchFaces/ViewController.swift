@@ -37,6 +37,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         cell.imageView?.image = UIImage(named: watchList[indexPath.row].dial)
         
         cell.textLabel?.text = String(watchList[indexPath.row].name)
+        cell.textLabel?.adjustsFontSizeToFitWidth = true
         cell.textLabel?.textColor = UIColor.white
         cell.textLabel?.textAlignment = .center
         cell.textLabel?.font = UIFont.boldSystemFont(ofSize: 20)

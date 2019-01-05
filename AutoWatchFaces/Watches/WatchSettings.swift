@@ -23,7 +23,7 @@ struct WatchSettings {
     var datePositionY : Double!
     var dateColor: UIColor
     
-    init(name:String,dial:String,secondHand:String,minuteHand:String,hourHand:String,date:Bool,minuteHandScale:Double?=0.1,secondHandScale:Double?=0.44,hourHandScale:Double?=0.12,datePositionX:Double?=65.0,datePositionY:Double?=0.2, dateColor:UIColor = .black) {
+    init(name:String,dial:String,secondHand:String,minuteHand:String,hourHand:String,date:Bool,minuteHandScale:Double?=0.09,secondHandScale:Double?=0.44,hourHandScale:Double?=0.12,datePositionX:Double?=65.0,datePositionY:Double?=0.2, dateColor:UIColor = .black) {
         self.name = name
         self.dial = dial
         self.secondHand = secondHand
