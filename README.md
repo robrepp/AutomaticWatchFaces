@@ -25,11 +25,8 @@ To change watchfaces rotate the Digital Crown.
 - Under ‘ON SCREEN WAKE SHOW LAST APP’ select Always.
 
 # List of watchfaces
-<<<<<<< HEAD
 For the moment only 8 watchfaces are available, more will come very soon !
-=======
-For the moment only 5 watchfaces are available, more will come very soon !
->>>>>>> fbeab20a01e664e9dcf9c8224104c4e14c35f2d9
+
 
 ### Rolex Submariner
 ### Rolex Milgauss
